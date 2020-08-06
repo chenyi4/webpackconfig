@@ -1,0 +1,22 @@
+1.https://cli.vuejs.org/zh/
+
+2. 基于vue cli-4
+vue create my-project
+# OR
+vue ui
+
+
+3.
+版本1: start
+
+版本2: 基于start 做了 axios的配置，和跨域的请求配置  （second） 
+
+版本3.基于版本2做了 路由管理 router (third)
+
+版本4  基于版本3 做了 数据管理  store,vuex (four)
+
+版本5 基于版本4 vue.config 配置  (five)
+
+版本6  禁止打包访问可以查看源码  (six)
+
+版本7  最终版本  (end)
