@@ -10,6 +10,7 @@ vue ui
 版本1: start
 
 版本2: 基于start 做了 axios的配置，和跨域的请求配置  （second） 
+关闭eslink
 
 版本3.基于版本2做了 路由管理 router (third)
 
@@ -19,4 +20,9 @@ vue ui
 
 版本6  禁止打包访问可以查看源码  (six)
 
-版本7  最终版本  (end)
+版本7  全局广播配置 (seven)
+
+版本8  对es6 编译es5
+
+版本9  对css 的自动添加前缀，对sass的支持配置
+
