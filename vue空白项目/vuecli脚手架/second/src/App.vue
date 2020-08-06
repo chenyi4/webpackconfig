@@ -9,7 +9,9 @@
 import HelloWorld from './components/HelloWorld.vue'
 import { panel } from '@/api/index'
 
-const back = panel.save('aaa');
+const back = panel.save({
+   type: "all",
+  });
 
 back.then((value) => {
   console.log(value);
