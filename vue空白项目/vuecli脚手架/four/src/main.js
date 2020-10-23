@@ -5,8 +5,10 @@ import VueRouter from 'vue-router';
 Vue.use(VueRouter);
 
 Vue.config.productionTip = false
-const Foo = {template: '<div>foo</div>'};
-const Bar = { template: '<div>bar</div>' }
+const Foo = {template: '<div style="width: 100%;position:fixed;height: 100%; background: grey;">foo</div>'};
+const Bar = { template: `<div 
+  style="width: 100%;position:fixed;height: 100%; background: blue;"
+>bar</div>`}
 
 const routes = [
   { path: '/foo', component: Foo },
